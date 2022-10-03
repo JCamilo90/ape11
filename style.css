@@ -3,11 +3,11 @@ p{
 	color:white;
 	font-size: 15px;
 	font-family: asdf, arial, "Times new roman";
-	/*text-shadow:1px 1px 1px white;*/
+	text-shadow:1px 1px 1px #111111;
 }
 
 body{
-	background-color: Black;
+	background-color:white;
 }
 
 *{
@@ -22,6 +22,7 @@ header{
 	padding:20px;
 }
 
+
 footer{
 	clear: both;
 	background-color:white;
@@ -29,21 +30,23 @@ footer{
 	text-align: center;
 	padding: 10px;
 	font-size:12px;
-	
+	text-shadow:1px 1px 1px #111111;
 }
 
 h1{
-	color:orangered;
+	color:#FF7F50;
+	text-shadow:1px 1px 1px #111111;
 	text-align: center;
 	margin:0 0 50px 0;
 }
 
+/* IDS */
 #principal{
 	background-image: url('github.jpg');
 	clear:both;
-	background-size:100%;
+	background-size:80%;
 	min-height: 400px;
-	padding:80px 0 0 0;
+	padding:40px 0 0 0;
 }
 
 #logo{
@@ -58,14 +61,13 @@ h1{
 #menu a{
 	padding:52px 20px;
 	text-decoration: none;
-	color:orangered;
-
+	color:#111;
+	text-shadow: 1px 1px #111111;
 }
 
 #menu a:hover{
-	background-color:White;
-
-	color:black;
+	background-color:#66CDAA;
+	color:#111;
 }
 
 /* class */
@@ -75,6 +77,6 @@ h1{
 }
 
 .efeito{
-	background-color:white (0, 0, 0, 0.5);
+	background-color:rgba(0, 0, 0, 0.5);
 	padding: 80px 0 80px 0;
 }

@@ -14,11 +14,55 @@
           <img src="img/logo.png">
         </div>
       </header>
+        <h1>Comandos Com Git Flow<h1>
 
-        <h1><h1>
 
+          <h3>Iniciando Git Flow</h3>
+          <h4>git flow init</h4>
+          <h4>git flow feature start nome_funcionalidade</h4>
+          <h4>Vai Criar um branch (baseado no develop) e uma checkout nesse branch</h4>
+          <br>
+          <h3>Finalizando uma funcionalidade</h3>
+          <h4></h4>git flow feature finish nome_funcionalidade
+          <br>
+          <h4>Esse comando irá executar as seguintes ações:</h4>
+          <h4>Merge com a branch develop;</h4>
+          <h4>Deleta a branch funcionalidade;</h4>
+          <h4>Checkout na branch develop;</h4>
+          <h4></h4>Finalizar uma funcionalidade, você deve executar esse comando dentro do branch funcionalidade que deseja finalizar
+          <br>
+          <h3>Publicando uma funcionalidade</h3>
+          <h4>git flow feature publish nome_funcionalidade</h4>
+          <h3>Obter uma funcionalidade</h3>
+          <h4>git flow feature pull nome_funcionalidade</h4>
+          <h4>Simplesmente um pull de uma branch</h4>
+          <br>
+          <h3>Versões / Release</h3>
+          <h3>Começar uma nova versão</h3>
+          <h4>git flow release start versao</h4>
+          <h4>Cria um branch baseado no develop</h4>
+          <br>
+          <h3>Publicando uma versão</h3>
+          <h4>git flow release publish versao</h4>
+          <br>
+          <h3>Finalizar versão</h3>
+          <h4>git flow release finish versao</h4>
+          <br>
+          <h4>Ele executa várias ações:</h4>
+          <h4>Faz merge do branch versao no master;</h4>
+          <h4>Faz merge do branch versao e um checkout no develop;</h4>
+          <h4>Etiqueta a versão com seu nome;</h4>
+          <h4>Remove o branch versao;</h4>
+          <br>>
+          <h3>Criando um hotfix</h3>
+          <h4>git flow hotfix start hotfix</h4>
+          <h4>Cria um branch baseado no master</h4>
+          <h4>O argumento hotfix  marca a versão com defeito na produção</h4>
+          <br>>
+          <h3>Finalizar um hotfix</h3>
+          <h4>git flow hotfix finish hotfix</h4>
                        
-     <footer>Desenvolvido Por Jeferson F.C da Silva</footer>
+     
  
  	</body>
  </html>

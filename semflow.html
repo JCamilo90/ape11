@@ -1,7 +1,7 @@
 <!DOCTYPE html>
  <html lang="pt-br">
  	<head>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     
     <title>SEM FLOW</title>
 
@@ -11,30 +11,63 @@
 
       <header>
         <div class="container">
-          <img src="img/logo.png">
+          <div id="logo">
+            <img src="logo.png">
+          </div>
+  
+          <div id="menu">
+            <a href="index.html">Inicio</a>
+            <a href="semflow.html">Git</a>
+            <a href="comflow.html">Git Flow</a>
+            </div>
         </div>
       </header>
+      <div id="principal" >
+       <div class="container">
+      
+                  </header>
 
-        <h1>Principais Comandos do Git sem Flow<h1>
+        <h1>Principais Exemplos de Comandos do Git <h1>
           
-		<h3>Setar usuário</h3>
-    <h4>git config --global user.name</h4>
-    <br>
-    <h3>Setar email</h3>
-    <h4>git config --global user.email</h4>
-    <br>
-    <h3>Setar editor</h3>
-    <h4>git config --global core.editor vim</h4>
-    <br>
-    <h3>Setar ferramenta de merge</h3>
-    <h4>git config --global merge.tool vimdiff</h4>
-    <br>
-    <h3>Setar arquivos a serem ignorados</h3>
-    <h4>git config --global core.excludesfile ~/.gitignore</h4>
-    <br>
-    <h3>Listar configurações</h3>
-    <h4>git config --list</h4>
+          <h3>Configurar GIT</h3>
+          <p>git config –global user.name “Seu nome”</p>
+          <br>
+          <h3>Setar email</h3>
+          <p>git config –global user.email “Seu email”</p>
+          <p>git config –global user.email “Seu email”</p>
+          <br>
+          <h3>Iniciar GIT</h3>
+          <p>git config --global core.editor vim</p>
+          <br>
+          <h3>Criar Copia do repositório</h3>
+          <p>git clone <URL do seu projeto></URL></p>
+          <br>
+          <h3>Adicionar arquivos especificados de código ao seu repositório</h3>
+          <p>git add seu_arquivo (Arquivos Especificados)</p>
+          <p>git add * (Todos)</p>
+          <br>
+          <h3>Executar o commit dos arquivos que foram adicionados</h3>
+          <p>git commit -m “seu comentário”</p>
+          <br>
+          <h3>Variações de repositorio</h3>
+          <p>git branch (lista todas as ramificações)</p>
+          <p>git branch <nome_do_branch> (cria um branch com o nome especificado)</p>
+          <p>git branch -d <nome_do_branch> (deleta o branch com o nome especificado)</p>
+          <br>
+          <h3>Navegar entre as branch</h3>
+          <p>git checkout <nome_do_branch></p>
+          <br>
+          <h3>Subir suas modificações para um repositório remoto</h3>
+          <p>git push -u <nome_curto> <nome_do_branch></p>
+          <br>
+          <h3>Marcar uma branch e evitar alteração</h3>
+          <p> git tag -a v1.0.0</p>
+          <br>
+          <h3>Ajuda</h3>
+          <p>git help <comando que se tem dúvida></p>
+
                        
-     
+    <footer>Desenvolvido por Jeferson F. Camilo da Silva.</footer>
+
  	</body>
  </html>
